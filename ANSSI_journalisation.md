@@ -13,15 +13,19 @@
 - transfert en temps différé (maximmum toutes les quelque heures et recommandé en temps réel)
 
 - Mode pull (le serveur qui se connecte pour récupérer les logs sur les machines) 
-Choix d'un mode pull ou push (pull compte unique avec authorisation spécial ou push mais plus risqué pour la connexion sur les serveur centraux)
+    Choix d'un mode pull ou push (pull compte unique avec authorisation spécial ou push mais plus risqué pour la connexion sur les serveur centraux)
 
+- Transfert TCP pour meilleur fiabilité ou (UDP moins de ressource mais risque de perte définitive)
 
+- Utiliser protocoles de transfert de journaux une version sécurisée utilisant TLS
 
 # Liste point important non essentiel
 
 vérifier régulièrement que tous les systèmes du SI sont bien journalisés
 
 Un fichier de log doit etre demander dans un cahier des charges de projet informatique
+
+- mécanismes de limitation de bande passante ou de priorisation des flux permet d’atteindre cet objectif
 
 il doit etre structuré afin de simplifier la lecture 
 
@@ -32,6 +36,8 @@ Il faut trier les log en catégorie évènements
 Il système de suppression automatique passé une certaine date doit etre mis en place
 
 Activer la journalisation sur un grand nombre de matériels
+
+- maintien en condition de sécurité
 
 Journaliser les empreintes des fichiers potentiellement malveillants
 
