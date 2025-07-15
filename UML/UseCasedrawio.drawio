@@ -21,7 +21,7 @@
         <mxCell id="MjwD6e0wirsRCNaimnq1-6" value="&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="232" y="72" width="407" height="368" as="geometry" />
         </mxCell>
-        <mxCell id="MjwD6e0wirsRCNaimnq1-7" value="Serveur Web qui génère les logs MariaDB" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="MjwD6e0wirsRCNaimnq1-7" value="Serveur Web qui génère les logs" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="340" y="72" width="165" height="29" as="geometry" />
         </mxCell>
         <mxCell id="MjwD6e0wirsRCNaimnq1-9" value="Accéder au site" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -42,7 +42,7 @@
         <mxCell id="MjwD6e0wirsRCNaimnq1-16" value="Lire/stocker les logs" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="465" y="391" width="140" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="MjwD6e0wirsRCNaimnq1-18" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" target="MjwD6e0wirsRCNaimnq1-16">
+        <mxCell id="MjwD6e0wirsRCNaimnq1-18" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="MjwD6e0wirsRCNaimnq1-73" target="MjwD6e0wirsRCNaimnq1-16">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="713.3333740234375" y="384.0000305175781" as="targetPoint" />
             <mxPoint x="718" y="373" as="sourcePoint" />
@@ -81,11 +81,11 @@
             <mxPoint x="622.0029876267811" y="175.99879309077085" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MjwD6e0wirsRCNaimnq1-72" value="Application" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="702" y="132" width="108" height="56" as="geometry" />
+        <mxCell id="MjwD6e0wirsRCNaimnq1-72" value="" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="704" y="124" width="108" height="99" as="geometry" />
         </mxCell>
-        <mxCell id="MjwD6e0wirsRCNaimnq1-73" value="Service de collecte de logs" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="721" y="351" width="110" height="50" as="geometry" />
+        <mxCell id="MjwD6e0wirsRCNaimnq1-73" value="" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="704" y="364" width="150" height="83" as="geometry" />
         </mxCell>
         <mxCell id="MjwD6e0wirsRCNaimnq1-74" value="S&#39;authentifier" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="259" y="225" width="140" height="33" as="geometry" />
@@ -94,12 +94,6 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="401" y="269" as="sourcePoint" />
             <mxPoint x="561" y="269" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MjwD6e0wirsRCNaimnq1-81" value="Include" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MjwD6e0wirsRCNaimnq1-12" target="MjwD6e0wirsRCNaimnq1-16">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="399" y="369" as="sourcePoint" />
-            <mxPoint x="559" y="369" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MjwD6e0wirsRCNaimnq1-88" value="Include" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;entryX=0.64;entryY=0.938;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MjwD6e0wirsRCNaimnq1-74" target="MjwD6e0wirsRCNaimnq1-9">
@@ -114,6 +108,12 @@
             <mxPoint x="255" y="276" as="sourcePoint" />
             <mxPoint x="415" y="276" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="MjwD6e0wirsRCNaimnq1-94" value="Serveur de collecte de logs" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="766.5" y="376" width="17.5" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="MjwD6e0wirsRCNaimnq1-96" value="Application" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="736" y="144" width="30" height="47" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
