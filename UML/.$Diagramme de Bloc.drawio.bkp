@@ -7,7 +7,7 @@
         <mxCell id="0nv1gYnGztNEkkEn9-FK-1" value="«infra»&lt;br&gt;&lt;b&gt;Infrastructure&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="540" y="60" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0nv1gYnGztNEkkEn9-FK-2" value="«webserver»&lt;br&gt;&lt;b&gt;WebServer-AMRV&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="0nv1gYnGztNEkkEn9-FK-2" value="«server»&lt;br&gt;&lt;b&gt;WebServer-AMRV&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="190" y="210" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="0nv1gYnGztNEkkEn9-FK-3" value="«server»&lt;br&gt;&lt;b&gt;DB-AMRV&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
@@ -28,7 +28,7 @@
         <mxCell id="0nv1gYnGztNEkkEn9-FK-6" value="«firewall»&lt;br&gt;&lt;b&gt;ufw&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="16" y="332" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0nv1gYnGztNEkkEn9-FK-7" value="&lt;div&gt;«rsyslog»&lt;/div&gt;&lt;div&gt;&lt;b&gt;rsyslog&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="0nv1gYnGztNEkkEn9-FK-7" value="&lt;div&gt;«création des logs»&lt;/div&gt;&lt;div&gt;&lt;b&gt;rsyslog&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="142" y="332" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="0nv1gYnGztNEkkEn9-FK-8" value="&lt;div&gt;«contneurisation»&lt;/div&gt;&lt;div&gt;&lt;b&gt;Docker&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
@@ -56,11 +56,11 @@
             <mxPoint x="220" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0nv1gYnGztNEkkEn9-FK-12" value="«wordpress»&lt;br&gt;&lt;b&gt;Wordpress&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="234" y="444" width="110" height="50" as="geometry" />
+        <mxCell id="0nv1gYnGztNEkkEn9-FK-12" value="«service»&lt;br&gt;&lt;b&gt;Wordpress&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="200" y="444" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0nv1gYnGztNEkkEn9-FK-13" value="&lt;div&gt;«other-service»&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;?&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="381" y="444" width="110" height="50" as="geometry" />
+        <mxCell id="0nv1gYnGztNEkkEn9-FK-13" value="&lt;div&gt;«&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;service»&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;?&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="345" y="444" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="0nv1gYnGztNEkkEn9-FK-14" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0nv1gYnGztNEkkEn9-FK-8" target="0nv1gYnGztNEkkEn9-FK-12">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
@@ -75,13 +75,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0nv1gYnGztNEkkEn9-FK-16" value="«firewall»&lt;br&gt;&lt;b&gt;ufw&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="725" y="267" width="110" height="50" as="geometry" />
+          <mxGeometry x="685" y="333" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="0nv1gYnGztNEkkEn9-FK-17" value="&lt;div&gt;«collecte des logs»&lt;/div&gt;&lt;div&gt;&lt;b&gt;rsyslog&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="804.5" y="336" width="110" height="50" as="geometry" />
+          <mxGeometry x="804.5" y="332" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0nv1gYnGztNEkkEn9-FK-18" value="&lt;div&gt;«mariadb»&lt;/div&gt;&lt;div&gt;&lt;b&gt;MariaDB&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="929" y="337" width="110" height="50" as="geometry" />
+        <mxCell id="0nv1gYnGztNEkkEn9-FK-18" value="&lt;div&gt;«database»&lt;/div&gt;&lt;div&gt;&lt;b&gt;MariaDB&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="929" y="332" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="0nv1gYnGztNEkkEn9-FK-19" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0nv1gYnGztNEkkEn9-FK-3" target="0nv1gYnGztNEkkEn9-FK-16">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
@@ -102,18 +102,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0nv1gYnGztNEkkEn9-FK-23" value="«timeserver»&lt;br&gt;&lt;b&gt;ntp&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1054" y="336" width="110" height="50" as="geometry" />
+          <mxGeometry x="1054" y="332" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="0nv1gYnGztNEkkEn9-FK-25" value="«timeserver»&lt;br&gt;&lt;b&gt;ntp&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="407" y="332" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="0nv1gYnGztNEkkEn9-FK-26" value="«service»&lt;br&gt;&lt;b&gt;nginx&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1324" y="267" width="110" height="50" as="geometry" />
+          <mxGeometry x="1178" y="452" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="0nv1gYnGztNEkkEn9-FK-27" value="&lt;div&gt;«contneurisation»&lt;/div&gt;&lt;div&gt;&lt;b&gt;Docker&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1135" y="267" width="110" height="50" as="geometry" />
+          <mxGeometry x="1178" y="332" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0nv1gYnGztNEkkEn9-FK-29" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0nv1gYnGztNEkkEn9-FK-27" target="0nv1gYnGztNEkkEn9-FK-26">
+        <mxCell id="0nv1gYnGztNEkkEn9-FK-29" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0nv1gYnGztNEkkEn9-FK-27" target="0nv1gYnGztNEkkEn9-FK-26">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
             <mxPoint x="1300" y="292" as="sourcePoint" />
             <mxPoint x="1399" y="368" as="targetPoint" />

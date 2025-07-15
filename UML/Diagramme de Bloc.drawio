@@ -34,17 +34,17 @@
         <mxCell id="0nv1gYnGztNEkkEn9-FK-8" value="&lt;div&gt;«contneurisation»&lt;/div&gt;&lt;div&gt;&lt;b&gt;Docker&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="273" y="332" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0nv1gYnGztNEkkEn9-FK-9" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0nv1gYnGztNEkkEn9-FK-2" target="0nv1gYnGztNEkkEn9-FK-8">
+        <mxCell id="0nv1gYnGztNEkkEn9-FK-9" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0nv1gYnGztNEkkEn9-FK-2" target="0nv1gYnGztNEkkEn9-FK-8">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
             <mxPoint x="290" y="280" as="sourcePoint" />
             <mxPoint x="360" y="320" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="260" y="296" />
+              <mxPoint x="295" y="296" />
               <mxPoint x="328" y="296" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0nv1gYnGztNEkkEn9-FK-10" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0nv1gYnGztNEkkEn9-FK-2" target="0nv1gYnGztNEkkEn9-FK-7">
+        <mxCell id="0nv1gYnGztNEkkEn9-FK-10" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0nv1gYnGztNEkkEn9-FK-2" target="0nv1gYnGztNEkkEn9-FK-7">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
             <mxPoint x="221" y="430" as="sourcePoint" />
             <mxPoint x="281" y="280" as="targetPoint" />
