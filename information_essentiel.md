@@ -1,32 +1,34 @@
 # Contexte (analyse de l'existant)
 
-On possède une application qui est un site web crée et géré par wordpress.
-La création de log est automatique dans un dossier système de la machine.
+L'application actuelle est un site web créé et géré avec WordPress.  
+Les journaux (logs) sont générés et stockés localement sur le serveur web.
 
+# Expression du besoin
 
+Afin de se conformer aux recommandations de l’ANSSI, il est nécessaire de mettre en place une seconde machine dédiée à la journalisation centralisée.  
+Cette machine devra permettre :
 
-# expression du besoin
-Pour respecter les recommandations de ANSSI on va mettre en place un système de journalisation centraliser
-
+- la sauvegarde des logs ;
+- l’affichage centralisé des journaux collectés.
 
 # Objectif du projet
-- Collecté les logs
-- Centralisé les logs et stocker sur un serveur distant.
-- affichage graphique de l'emsemble de logs
 
+- Collecter les logs, les centraliser et les stocker sur un serveur distant.  
+- Fournir un affichage graphique de l’ensemble des journaux collectés.
 
 # Fonctions principales
-- Copie des logs de l'ensemble de l'infra
-- Affichage d'un log centralisé
-- Stockage des logs
 
-# Critères de performances
-Actualisation automatique a chaque nouvelle reception.
+- Copie des journaux de l’ensemble de l’infrastructure vers le serveur de collecte.  
+- Affichage des journaux sur le serveur de collecte.  
+- Sauvegarde automatique des logs sur le serveur de collecte.
 
+# Critères de performance
 
+- Actualisation automatique à chaque nouvelle réception de log.  
+- Récupération des journaux toutes les 5 minutes ou sur demande manuelle de l’administrateur.
 
 # Contraintes techniques
-- Aucun budget
-- utilisation de rsyslog
-- 2 machine minimum
 
+- Aucun budget alloué.  
+- Utilisation de **rsyslog**.  
+- Deux machines minimum requises.
