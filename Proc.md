@@ -32,4 +32,18 @@
     sudo apt install rsyslog-mysql #Installation du plugin pour MariaDB
     ```
     - #### Configuration :
-    ```yaml
+    ```bash
+    cd /etc
+    sudo cp rsyslog.conf rsyslog.conf.bak
+    sudo vim rsyslog.conf
+    ```
+
+    *Ajouter ces lignes dans le fichier rsyslog.conf*
+    ```conf
+    # provides UDP syslog reception
+    module(load="imudp")
+    input(type="imudp" port="514")
+    # provides TCP syslog reception
+    module(load="imtcp")
+    input(type="imtcp" port="514")
+    ```
