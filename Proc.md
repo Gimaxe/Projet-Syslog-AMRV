@@ -1,6 +1,6 @@
 # Procédure d'installation RSyslog
 ## Prérequis
-- ### Serveur Applicatif
+- ### Serveur Web (WordPress)
   - rsyslog
   - Pare-Feu (ufw)
 - ### Serveur Collecteur (Base de Données)
@@ -38,7 +38,18 @@
     sudo vim rsyslog.conf
     ```
 
-    *Ajouter ces lignes dans le fichier rsyslog.conf*
+
+    ```conf
+    #################
+    #### MODULES ####
+    #################
+
+    module(load="imuxsock") # provides support for local system logging
+    module(load="imklog")   # provides kernel logging support
+    #module(load="immark")  # provides --MARK-- message capability
+    ```
+    *Ajouter ces lignes à la fin de la section **"MODULES"** du fichier rsyslog.conf*
+
     ```conf
     # provides UDP syslog reception
     module(load="imudp")
