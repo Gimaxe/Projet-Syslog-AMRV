@@ -3,31 +3,32 @@
 ### Anthony :
 - UML: diagramme use case
 - UML: diagramme bloc
-
+- Liste des livrables
 
 ### Mathis : 
-- repository github
-- code source de l'application
-- sitemap (plan de site)
-- mockup
+- Repository github
+- Code source de l'application
+- Sitemap (plan de site)
+- Mockup
 
 
 ### Romain :
 - Documentation d'installation
-- schéma réseau
+- Schéma réseau
+- Synchronisation NTP
 
 ### Valentin :
 - Diaporama
 - Document d'analyse du livret ANSSI 
-- tableau de répartition de la charge de travail
+- Tableau de répartition de la charge de travail
 - Contexte (analyse de l'existant)
-- expression besoin
+- Expression besoin
 - Objectif du projet
 - Fonctions principales
 - Critères de performances
 - Contraintes techniques
 - Enoncé des tâches à réaliser par livrable
-
+- 
 
 
 
