@@ -2,7 +2,6 @@
 
 ### Anthony :
 - UML: diagramme use case
-- UML: diagramme bloc
 - Liste des livrables
 - Liste des livrables
 
@@ -16,6 +15,7 @@
 - programmation modulaire: fichiers source / fonctions
 
 ### Romain :
+- UML: diagramme bloc
 - Documentation d'installation
 - Schéma réseau
 - Synchronisation NTP
@@ -37,9 +37,9 @@
 
 ## Tache a faire :
 
-Documentation utilisateur basée sur les cas d'utilisation
-Tests de validation basés sur les cas d'utilisation
-état initial, action, résultat attendu, résultat obtenu
+- Documentation utilisateur basée sur les cas d'utilisation
+- Tests de validation basés sur les cas d'utilisation
+- Etat initial, action, résultat attendu, résultat obtenu
 
 
 
