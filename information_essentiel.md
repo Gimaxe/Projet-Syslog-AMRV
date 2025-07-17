@@ -29,6 +29,5 @@ Cette machine devra permettre :
 
 # Contraintes techniques
 
-- Aucun budget alloué.  
 - Utilisation de **rsyslog**.  
 - Deux machines minimum requises.
