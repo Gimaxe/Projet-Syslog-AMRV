@@ -8,6 +8,6 @@
 | MariaDB             | Base de données pour le stockage des informations                                           |
 | Nextcloud           | Application web installée sur le serveur WebServer-AMRV pour le partage et la synchronisation de fichiers  |
 | Nginx               | Serveur web et reverse proxy           installé sur WebServer-AMRV et DB-AMRV                                                     |
-| Logcatch            | Site web permettant de collecter et visualiser les logs dans la base de données             |
+| Logcatch            | Site web permettant visualiser les logs dans la base de données             |
 | Scripts d’intégration| Scripts permettant à Rsyslog de récupérer les logs depuis Nextcloud et les transférer vers
 
