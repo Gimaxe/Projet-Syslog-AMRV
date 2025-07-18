@@ -16,6 +16,7 @@ Cette machine devra permettre :
 
 - Collecter les logs, les centraliser et les stocker sur un serveur distant.  
 - Fournir un affichage graphique de l’ensemble des journaux collectés.
+- Respecter les recommandation de ANSSI
 
 # Fonctions principales
 
