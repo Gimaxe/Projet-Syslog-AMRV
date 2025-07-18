@@ -1,7 +1,8 @@
 # Contexte (analyse de l'existant)
 
-L'application actuelle est un site web créé et géré avec WordPress.  
-Les journaux (logs) sont générés et stockés localement sur le serveur web.
+L'application actuelle est un site web créé et géré avec nginx.  \
+Les journaux (logs) sont générés et stockés localement sur le serveur web. \
+Aucune gestion n'est faites sur les logs
 
 # Expression du besoin
 
@@ -29,5 +30,6 @@ Cette machine devra permettre :
 
 # Contraintes techniques
 
+- Respect des recommandation de ANSSI
 - Utilisation de **rsyslog**.  
 - Deux machines minimum requises.
