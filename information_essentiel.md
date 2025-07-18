@@ -25,8 +25,8 @@ Cette machine devra permettre :
 
 # Critères de performance
 
-- Actualisation automatique à chaque nouvelle réception de log.  
-- Récupération des journaux toutes les 5 minutes ou sur demande manuelle de l’administrateur.
+- Actualisation manuellement de la page .  
+- Récupération des journaux automatique via rsyslog.
 
 # Contraintes techniques
 
