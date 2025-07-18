@@ -42,7 +42,8 @@ Ici le système permet de gérer les logs générés par un serveur web. Il couv
 
 ## 4. Remarques générales
 
-- Les utilisateurs sont les administrateurs il n'y a pas de notion proprement dit d'utilisateurs et il n' y a pas de droits spécifiques  .
+- Les utilisateurs sont les administrateurs il n'y a pas de notion proprement dit d'utilisateurs et il n' y a pas de droits spécifiques conférés aux administrateurs tous ont les mêmes droits.
+
 - Les administrateurs créent des comptes à l'aide d'un script stocké  à la racine du code .
 
 ![scripts](Images/Capture9.png)
