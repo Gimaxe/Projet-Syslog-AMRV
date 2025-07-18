@@ -31,6 +31,7 @@ Cette machine devra permettre :
 
 # Contraintes techniques
 
+- Utilisation de php
 - Respect des recommandation de ANSSI
 - Utilisation de **rsyslog**.  
 - Deux machines minimum requises.
