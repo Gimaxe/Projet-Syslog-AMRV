@@ -3,7 +3,7 @@
 ### Anthony :
 - UML: diagramme use case
 - Liste des livrables
-- Liste des livrables
+- Documentation utilisateur basée sur les cas d'utilisation
 
 
 ### Mathis : 
@@ -37,7 +37,7 @@
 
 ## Tache a faire :
 
-- Documentation utilisateur basée sur les cas d'utilisation
+
 - Tests de validation basés sur les cas d'utilisation
 - Etat initial, action, résultat attendu, résultat obtenu
 
