@@ -18,6 +18,7 @@
 - Documentation d'installation
 - Schéma réseau
 - Synchronisation NTP
+- Paramétrage des service (MariaDB, Nextcloud, NGINX)
 
 ### Valentin :
 - Diaporama
