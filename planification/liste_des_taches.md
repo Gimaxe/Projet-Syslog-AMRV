@@ -4,6 +4,7 @@
 - UML: diagramme use case
 - Liste des livrables
 - Documentation utilisateur basée sur les cas d'utilisation
+- Phase de test
 
 ### Mathis : 
 - Repository github
