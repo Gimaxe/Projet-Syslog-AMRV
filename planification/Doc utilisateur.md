@@ -2,9 +2,9 @@
 
 ## 1. Présentation 
 
-Les logs sont générés par Nextcloud et le serveur web ensuite il envoie les logs via Rsyslog sur le serveur de base de données et pour les afficher sur LogCatch (application web).  
-Il couvre la génération, la configuration, la réception et le stockage des logs.  
-Il implique plusieurs acteurs, chacun ayant des actions spécifiques.
+Ici le système permet de gérer les logs générés par un serveur web. Il couvre la collecte, la configuration, la réception et le stockage des logs. Il y'a plusieurs acteurs tant principales que secondaires, chacun ayant des actions spécifiques.
+
+
 
 ---
 
@@ -15,18 +15,23 @@ Il implique plusieurs acteurs, chacun ayant des actions spécifiques.
 **https://logcatch.daisuke39.fr/**:
 ![Se connecter](Images/Capture1.png)
 
-- S’authentifier avec ses identifiants  pour accéder aux fonctionnalités.
+- S’authentifier avec ses identifiants.
+
 ![login/mdp](Images/Capture0.png)
+
+-Sélectionner son instance
+
 ![Instance](Images/Capture2.png)
 ### b. Administrateur
-**S'authentifier confer utilisateur**
+**S'authentifier confère utilisateur**
 - Configure les paramètres des logs.
 ![Filtres](Images/Capture4.png)
-- Surveille le fonctionnement du serveur.
+
+- Surveiller le fonctionnement du serveur.
 ![logs](Images/Capture5.png)
 ### c. Application
 - Envoie des requêtes au serveur web.
-![requêtes](Images/Capture6.png)
+![requêtes](Images/Capture10.png)
 - Provoque la génération de logs.
 ![logs serveur](Images/Capture7.png)
 ### d. Serveur de collecte de logs
@@ -39,4 +44,7 @@ Il implique plusieurs acteurs, chacun ayant des actions spécifiques.
 
 - Les utilisateurs sont les administrateurs il n'y a pas de notion proprement dit d'utilisateurs et il n' y a pas de droits spécifiques  .
 - Les administrateurs créent des comptes à l'aide d'un script stocké  à la racine du code .
+
+![scripts](Images/Capture9.png)
+
 - Les logs sont générés et tranférés automatiquement.
